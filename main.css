@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(cyber.jpg);
+    max-width: 1920px;
+    height: 1000px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.logocyber   {
+    width: 296px;
+    height: 74px;
+    margin-top: 20px;
+    margin-left: 320px;
+
+}
+ .navbar {
+    position: absolute;
+    width: 1280px;
+    height: 74px;
+    margin-top: 20px;
+    display: flex;
+} 
+
+
+.container {
+width: 379px;
+height: 30px;
+margin-top: 42px;
+margin-left: 605px;
+}
+
+.container ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.box {
+width: 624px;
+min-height: 369px;
+background-image:url(Rectangle\ 59.svg);
+position: absolute;
+margin-top: 631px;
+margin-left: 976px ;
+}
+
+.text {
+    width: 507px;
+    height: 126px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.source {
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.sourcetext {
+    font-family: 'Roboto';
+    padding: 19px 50px 19px 50px;
+    background: #000;
+    color: #f8f200;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.sourcetext:hover {
+    color: #000;
+    background: white;
+    transition:all 0.3s ease-in-out ;
+}
+article {
+    width: 1920px;
+    height: 777px;
+}
+.h {
+    margin-top: 70px;
+    margin-left: 320px;
+    margin-bottom: 7px;
+}
+
+.h h1 {
+    font-family: 'Roboto';
+    font-size: 60px;
+}
+
+.text2 {
+    width: 952px;
+    height: 125px;
+    margin-left: 320px;
+}
+
+.text2 p{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+}
+.container_image {
+    margin-top: 70px;
+    display: flex;
+    width: 916px;
+    height: 788px;
+    margin-left: 320px; 
+}
+.city1 {
+    margin-right: 32px;
+}
+
+.items1 {
+    padding-bottom: 32px ;
+}
+
+.fon {
+    width: 1920px;
+    height: 70px;
+    background-image: url(1111.svg)
+}
+footer {
+    width: 1920px;
+    height: 814px;
+    background: #000;
+}
+
+
+.img-head {
+    margin-left: 320px;
+    margin-right: 32px;
+    margin-top: 15px;
+
+}
+.text-head {
+color: white;
+font-size: 62px;
+font-family: 'Roboto';
+margin-top: 70px;
+}
+
+.container-footer {
+    display: flex;
+}
+.text-span {
+    display: inline-block;
+    width: 952px;
+    height: 91px;
+    margin-top: 25px;
+    margin-left: 320px;
+
+}
+.text-span p {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.span-cyber,.span-Xbox, .span-sony {
+    color: #52BEDC;
+}
+
+#text- {
+    width: 460px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+    background-color: transparent;
+    color: #777;
+    line-height: 45px;
+    font-size: 21px;
+}
+#text-email {
+    width: 460px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+    background-color: transparent;
+    color: #777;
+    line-height: 45px;
+    font-size: 21px;
+}
+.container-label {
+    margin-left: 320px;
+    height: 383px;
+}
+.email-label {
+    margin-top: 35px;
+}
+.image-paste p input[type=file] {
+    width: 460px;
+    height: 120px;
+    border: none;
+    border: 1px dashed #777;
+    background-color: transparent;
+    color: #777;
+    font-size: 21px;
+    line-height: 110px;
+    padding-left: 4%;
+    cursor: pointer;
+ 
+}
+
+.image-paste {
+    margin-top: 35px;
+}
+
+.image-forms {
+    display: flex;
+}
+.image-forms {
+max-width: 788px;
+height: 456px;
+}
+
+.btn{
+    color: #000;
+    background: #F8F200;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    line-height: 10px;
+    text-align: center;
+    width: 192px;
+    min-width: 100px;
+    min-height: 59px;
+    border: none;
+}
+
+.button {
+    margin-top: 35px;
+   
+}
+
+.btn:hover {
+background: white;
+color: black;
+transition: 0.3s ease-in-out;
+}
+
+.checkbox {
+    color: #f8f200;
+    border: 1px solid gray;
+    width: 14px;
+    height: 14px;
+    background: black;
+}
+
+.label-check {
+    color: #FFFF   ;
+    font-family: 'Roboto';
+    font-size: 12px;
+    /* width: 256px; */
+    /* height: 14px; */
+    text-align: center;
+
+}
+
+.check {
+    margin-top: 25px;
+}
