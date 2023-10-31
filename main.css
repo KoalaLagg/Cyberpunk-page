@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-image: url(cyber.jpg);
+    background-image: url("cyber.jpg");
     max-width: 1920px;
     height: 1000px;
     position: relative;
